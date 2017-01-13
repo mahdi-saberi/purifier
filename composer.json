@@ -1,0 +1,9 @@
+{
+    "require": {
+        "divineomega/php-summary": "^1.1",
+        "zrashwani/news-scrapper": "^1.0",
+        "j0k3r/graby": "^1.5",
+        "electrolinux/phpquery": "^0.9.6",
+        "crodas/text-rank": "dev-master"
+    }
+}

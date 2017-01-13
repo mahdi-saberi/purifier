@@ -1,0 +1,1514 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "3f6aa3aacad7221530f34bdbbd41006c",
+    "content-hash": "48ef6e1ec0fdf16179294d8b7ec9dfbf",
+    "packages": [
+        {
+            "name": "crodas/languagedetector",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/crodas/LanguageDetector.git",
+                "reference": "07aa8bb806cb71fe4e4352c12232a5c74bf416ed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/crodas/LanguageDetector/zipball/07aa8bb806cb71fe4e4352c12232a5c74bf416ed",
+                "reference": "07aa8bb806cb71fe4e4352c12232a5c74bf416ed",
+                "shasum": ""
+            },
+            "require-dev": {
+                "crodas/autoloader": "~0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "LanguageDetector": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-4-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "César D. Rodas",
+                    "email": "crodas@php.net"
+                }
+            ],
+            "description": "simple library to classify texts",
+            "time": "2013-11-06 01:26:03"
+        },
+        {
+            "name": "crodas/text-rank",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/crodas/TextRank.git",
+                "reference": "8c113c5b0cae3eeb853891ef5afdf27d678a5940"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/crodas/TextRank/zipball/8c113c5b0cae3eeb853891ef5afdf27d678a5940",
+                "reference": "8c113c5b0cae3eeb853891ef5afdf27d678a5940",
+                "shasum": ""
+            },
+            "require": {
+                "crodas/languagedetector": "~0.1",
+                "ext-mbstring": "*"
+            },
+            "suggest": {
+                "ext-stem": "Improves keywords selection"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "lib/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "César D. Rodas",
+                    "email": "crodas@php.net"
+                }
+            ],
+            "description": "Extract relevant keywords from a given text",
+            "time": "2013-12-08 07:56:52"
+        },
+        {
+            "name": "divineomega/php-summary",
+            "version": "1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DivineOmega/php-summary.git",
+                "reference": "a1bd8ad3cc6a09590e878a1c3e14dfc681f33db9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DivineOmega/php-summary/zipball/a1bd8ad3cc6a09590e878a1c3e14dfc681f33db9",
+                "reference": "a1bd8ad3cc6a09590e878a1c3e14dfc681f33db9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DivineOmega\\PHPSummary\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL3"
+            ],
+            "description": "PHP Summarization Library",
+            "homepage": "https://github.com/DivineOmega/php-summary",
+            "keywords": [
+                "library",
+                "php",
+                "summarization",
+                "summarization library",
+                "summarizing",
+                "summary"
+            ],
+            "time": "2016-01-07 22:36:08"
+        },
+        {
+            "name": "electrolinux/phpquery",
+            "version": "0.9.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/electrolinux/phpquery.git",
+                "reference": "6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/electrolinux/phpquery/zipball/6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a",
+                "reference": "6cb8afcfe8cd4ce45f2f8c27d561383037c27a3a",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "phpQuery/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobiasz Cudnik",
+                    "email": "tobiasz.cudnik@gmail.com",
+                    "homepage": "https://github.com/TobiaszCudnik",
+                    "role": "Developer"
+                },
+                {
+                    "name": "didier Belot",
+                    "role": "Packager"
+                }
+            ],
+            "description": "phpQuery is a server-side, chainable, CSS3 selector driven Document Object Model (DOM) API based on jQuery JavaScript Library",
+            "homepage": "http://code.google.com/p/phpquery/",
+            "time": "2013-03-21 12:39:33"
+        },
+        {
+            "name": "fabpot/goutte",
+            "version": "v2.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfPHP/Goutte.git",
+                "reference": "0ad3ee6dc2d0aaa832a80041a1e09bf394e99802"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfPHP/Goutte/zipball/0ad3ee6dc2d0aaa832a80041a1e09bf394e99802",
+                "reference": "0ad3ee6dc2d0aaa832a80041a1e09bf394e99802",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": ">=4,<6",
+                "php": ">=5.4.0",
+                "symfony/browser-kit": "~2.1",
+                "symfony/css-selector": "~2.1",
+                "symfony/dom-crawler": "~2.1"
+            },
+            "type": "application",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Goutte\\": "Goutte"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "A simple PHP Web Scraper",
+            "homepage": "https://github.com/FriendsOfPHP/Goutte",
+            "keywords": [
+                "scraper"
+            ],
+            "time": "2015-05-05 21:14:57"
+        },
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "5.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "70f1fa53b71c4647bf2762c09068a95f77e12fb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/70f1fa53b71c4647bf2762c09068a95f77e12fb8",
+                "reference": "70f1fa53b71c4647bf2762c09068a95f77e12fb8",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/ringphp": "^1.1",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2016-07-15 19:28:39"
+        },
+        {
+            "name": "guzzlehttp/ringphp",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/RingPHP.git",
+                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/RingPHP/zipball/dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
+                "reference": "dbbb91d7f6c191e5e405e900e3102ac7f261bc0b",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/streams": "~3.0",
+                "php": ">=5.4.0",
+                "react/promise": "~2.0"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "ext-curl": "Guzzle will use specific adapters if cURL is present"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Ring\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
+            "time": "2015-05-20 03:37:09"
+        },
+        {
+            "name": "guzzlehttp/streams",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/streams.git",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/streams/zipball/47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+                "reference": "47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Stream\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Provides a simple abstraction over streams of data",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "Guzzle",
+                "stream"
+            ],
+            "time": "2014-10-12 19:18:40"
+        },
+        {
+            "name": "htmlawed/htmlawed",
+            "version": "1.1.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kesar/HTMLawed.git",
+                "reference": "b270453ba016ee4c6dae585f047d1e4f3cc456a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kesar/HTMLawed/zipball/b270453ba016ee4c6dae585f047d1e4f3cc456a1",
+                "reference": "b270453ba016ee4c6dae585f047d1e4f3cc456a1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">4.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "htmLawed.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+",
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Santosh Patnaik",
+                    "homepage": "http://www.bioinformatics.org/people/index.php?user_hash=558b661f92d0ff7b",
+                    "role": "Developer"
+                }
+            ],
+            "description": "htmLawed - Process text with HTML markup to make it more compliant with HTML standards and administrative policies",
+            "homepage": "http://www.bioinformatics.org/phplabware/internal_utilities/htmLawed/",
+            "keywords": [
+                "HTMLtidy",
+                "html",
+                "sanitize",
+                "strip",
+                "tags"
+            ],
+            "time": "2016-08-27 18:53:27"
+        },
+        {
+            "name": "j0k3r/graby",
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/j0k3r/graby.git",
+                "reference": "f22dc928738088abce5663c828e336e59a18f455"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/j0k3r/graby/zipball/f22dc928738088abce5663c828e336e59a18f455",
+                "reference": "f22dc928738088abce5663c828e336e59a18f455",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "guzzlehttp/guzzle": "^5.2.0",
+                "htmlawed/htmlawed": "^1.1.19",
+                "j0k3r/graby-site-config": "^1.0",
+                "j0k3r/php-readability": "^1.0",
+                "j0k3r/safecurl": "~2.0",
+                "monolog/monolog": "^1.13.1",
+                "php": ">=5.4",
+                "simplepie/simplepie": "^1.3.1",
+                "smalot/pdfparser": "~0.9.24",
+                "symfony/options-resolver": "~2.6|~3.0",
+                "true/punycode": "~2.0"
+            },
+            "require-dev": {
+                "satooshi/php-coveralls": "~0.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Graby\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Benoist",
+                    "email": "jeremy.benoist@gmail.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "FiveFilters.org",
+                    "email": "fivefilters@fivefilters.org",
+                    "role": "Developer (original version)"
+                }
+            ],
+            "description": "Graby helps you extract article content from web pages",
+            "time": "2016-11-22 08:23:49"
+        },
+        {
+            "name": "j0k3r/graby-site-config",
+            "version": "1.0.29",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/j0k3r/graby-site-config.git",
+                "reference": "adf4a3b2a5b4eab54d33661e7065202d959a34d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/j0k3r/graby-site-config/zipball/adf4a3b2a5b4eab54d33661e7065202d959a34d7",
+                "reference": "adf4a3b2a5b4eab54d33661e7065202d959a34d7",
+                "shasum": ""
+            },
+            "require": {
+                "symfony/finder": "~2.6|~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "GrabySiteConfig\\SiteConfig\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "AGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Benoist",
+                    "email": "jeremy.benoist@gmail.com"
+                }
+            ],
+            "description": "Graby site config files",
+            "time": "2016-11-24 07:57:32"
+        },
+        {
+            "name": "j0k3r/php-readability",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/j0k3r/php-readability.git",
+                "reference": "e5d31b93d1aa0fc4029c3e3beb05f34f0bd690ad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/j0k3r/php-readability/zipball/e5d31b93d1aa0fc4029c3e3beb05f34f0bd690ad",
+                "reference": "e5d31b93d1aa0fc4029c3e3beb05f34f0bd690ad",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "^1.13",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "<2",
+                "satooshi/php-coveralls": "~0.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Readability\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Keyvan Minoukadeh",
+                    "email": "keyvan@keyvan.net",
+                    "homepage": "http://keyvan.net",
+                    "role": "Developer (ported original JS code to PHP)"
+                },
+                {
+                    "name": "Arc90",
+                    "homepage": "http://arc90.com",
+                    "role": "Developer (original JS version)"
+                },
+                {
+                    "name": "Jeremy Benoist",
+                    "email": "jeremy.benoist@gmail.com",
+                    "homepage": "http://www.j0k3r.net",
+                    "role": "Developer"
+                },
+                {
+                    "name": "DitherSky",
+                    "homepage": "https://github.com/Dither",
+                    "role": "Developer (https://github.com/Dither/full-text-rss)"
+                }
+            ],
+            "description": "Automatic article extraction from HTML",
+            "keywords": [
+                "article",
+                "article extraction",
+                "content",
+                "content extraction",
+                "extraction",
+                "html"
+            ],
+            "time": "2017-01-11 09:54:24"
+        },
+        {
+            "name": "j0k3r/safecurl",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/j0k3r/safecurl.git",
+                "reference": "d5b7a0dcda23f8fd6a3f0ca3dac080e38388ba4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/j0k3r/safecurl/zipball/d5b7a0dcda23f8fd6a3f0ca3dac080e38388ba4b",
+                "reference": "d5b7a0dcda23f8fd6a3f0ca3dac080e38388ba4b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "fin1te\\SafeCurl\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeremy Benoist",
+                    "email": "jeremy.benoist@gmail.com"
+                },
+                {
+                    "name": "Jack W",
+                    "email": "jack@fin1te.net",
+                    "role": "Developer (original version)"
+                }
+            ],
+            "description": "A drop-in replacement for 'curl_exec', designed to prevent SSRF attacks.",
+            "keywords": [
+                "curl",
+                "safe",
+                "safecurl",
+                "ssrf",
+                "websec"
+            ],
+            "time": "2015-11-23 08:16:01"
+        },
+        {
+            "name": "monolog/monolog",
+            "version": "1.22.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bad29cb8d18ab0315e6c477751418a82c850d558",
+                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "psr/log": "~1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0.0"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "^2.4.9 || ^3.0",
+                "doctrine/couchdb": "~1.0@dev",
+                "graylog2/gelf-php": "~1.0",
+                "jakub-onderka/php-parallel-lint": "0.9",
+                "php-amqplib/php-amqplib": "~2.4",
+                "php-console/php-console": "^3.1.3",
+                "phpunit/phpunit": "~4.5",
+                "phpunit/phpunit-mock-objects": "2.3.0",
+                "ruflin/elastica": ">=0.90 <3.0",
+                "sentry/sentry": "^0.13",
+                "swiftmailer/swiftmailer": "~5.3"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Allow sending log messages to AWS services like DynamoDB",
+                "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
+                "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
+                "ext-mongo": "Allow sending log messages to a MongoDB server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "mongodb/mongodb": "Allow sending log messages to a MongoDB server via PHP Driver",
+                "php-amqplib/php-amqplib": "Allow sending log messages to an AMQP server using php-amqplib",
+                "php-console/php-console": "Allow sending log messages to Google Chrome",
+                "rollbar/rollbar": "Allow sending log messages to Rollbar",
+                "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
+                "sentry/sentry": "Allow sending log messages to a Sentry server"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Monolog\\": "src/Monolog"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jordi Boggiano",
+                    "email": "j.boggiano@seld.be",
+                    "homepage": "http://seld.be"
+                }
+            ],
+            "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+            "homepage": "http://github.com/Seldaek/monolog",
+            "keywords": [
+                "log",
+                "logging",
+                "psr-3"
+            ],
+            "time": "2016-11-26 00:15:39"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10 12:19:37"
+        },
+        {
+            "name": "react/promise",
+            "version": "v2.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reactphp/promise.git",
+                "reference": "2760f3898b7e931aa71153852dcd48a75c9b95db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reactphp/promise/zipball/2760f3898b7e931aa71153852dcd48a75c9b95db",
+                "reference": "2760f3898b7e931aa71153852dcd48a75c9b95db",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "React\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Sorgalla",
+                    "email": "jsorgalla@gmail.com"
+                }
+            ],
+            "description": "A lightweight implementation of CommonJS Promises/A for PHP",
+            "keywords": [
+                "promise",
+                "promises"
+            ],
+            "time": "2016-12-22 14:09:01"
+        },
+        {
+            "name": "simplepie/simplepie",
+            "version": "1.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/simplepie/simplepie.git",
+                "reference": "2a24b6e74aa9bf33243020f52895fe77efe94ccf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/simplepie/simplepie/zipball/2a24b6e74aa9bf33243020f52895fe77efe94ccf",
+                "reference": "2a24b6e74aa9bf33243020f52895fe77efe94ccf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4 || ~5"
+            },
+            "suggest": {
+                "mf2/mf2": "Microformat module that allows for parsing HTML for microformats"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SimplePie": "library"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Parman",
+                    "homepage": "http://ryanparman.com/",
+                    "role": "Creator, alumnus developer"
+                },
+                {
+                    "name": "Geoffrey Sneddon",
+                    "homepage": "http://gsnedders.com/",
+                    "role": "Alumnus developer"
+                },
+                {
+                    "name": "Ryan McCue",
+                    "email": "me@ryanmccue.info",
+                    "homepage": "http://ryanmccue.info/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple Atom/RSS parsing library for PHP",
+            "homepage": "http://simplepie.org/",
+            "keywords": [
+                "atom",
+                "feeds",
+                "rss"
+            ],
+            "time": "2016-11-27 01:39:18"
+        },
+        {
+            "name": "smalot/pdfparser",
+            "version": "v0.9.26",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smalot/pdfparser.git",
+                "reference": "5c1eaff9fb407779b5e05ea4f851be6f7d2a14f6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smalot/pdfparser/zipball/5c1eaff9fb407779b5e05ea4f851be6f7d2a14f6",
+                "reference": "5c1eaff9fb407779b5e05ea4f851be6f7d2a14f6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "tecnickcom/tcpdf": "~6.0"
+            },
+            "require-dev": {
+                "atoum/atoum": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Smalot\\PdfParser\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sebastien MALOT",
+                    "email": "sebastien@malot.fr",
+                    "homepage": "http://www.malot.fr",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Pdf parser library. Can read and extract information from pdf file.",
+            "homepage": "http://www.pdfparser.org",
+            "time": "2016-11-05 07:58:33"
+        },
+        {
+            "name": "symfony/browser-kit",
+            "version": "v2.8.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/browser-kit.git",
+                "reference": "165bf6d1e72cd72f2fe170a070aa2a1f17f2d744"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/165bf6d1e72cd72f2fe170a070aa2a1f17f2d744",
+                "reference": "165bf6d1e72cd72f2fe170a070aa2a1f17f2d744",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/dom-crawler": "~2.1|~3.0.0"
+            },
+            "require-dev": {
+                "symfony/css-selector": "~2.0,>=2.0.5|~3.0.0",
+                "symfony/process": "~2.3.34|~2.7,>=2.7.6|~3.0.0"
+            },
+            "suggest": {
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\BrowserKit\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony BrowserKit Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-09-06 10:55:00"
+        },
+        {
+            "name": "symfony/console",
+            "version": "v2.8.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "d5643cd095e5e37d31e004bb2606b5dd7e96602f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/d5643cd095e5e37d31e004bb2606b5dd7e96602f",
+                "reference": "d5643cd095e5e37d31e004bb2606b5dd7e96602f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/debug": "~2.7,>=2.7.2|~3.0.0",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/event-dispatcher": "~2.1|~3.0.0",
+                "symfony/process": "~2.1|~3.0.0"
+            },
+            "suggest": {
+                "psr/log": "For using the console logger",
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Console\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Console Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-12-06 11:59:35"
+        },
+        {
+            "name": "symfony/css-selector",
+            "version": "v2.8.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/css-selector.git",
+                "reference": "981abbbd6ba49af338a98490cbe29e7f39ca9fa9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/981abbbd6ba49af338a98490cbe29e7f39ca9fa9",
+                "reference": "981abbbd6ba49af338a98490cbe29e7f39ca9fa9",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\CssSelector\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jean-François Simon",
+                    "email": "jeanfrancois.simon@sensiolabs.com"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony CssSelector Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-11-03 07:52:58"
+        },
+        {
+            "name": "symfony/debug",
+            "version": "v3.0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/debug.git",
+                "reference": "697c527acd9ea1b2d3efac34d9806bf255278b0a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/debug/zipball/697c527acd9ea1b2d3efac34d9806bf255278b0a",
+                "reference": "697c527acd9ea1b2d3efac34d9806bf255278b0a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9",
+                "psr/log": "~1.0"
+            },
+            "conflict": {
+                "symfony/http-kernel": ">=2.3,<2.3.24|~2.4.0|>=2.5,<2.5.9|>=2.6,<2.6.2"
+            },
+            "require-dev": {
+                "symfony/class-loader": "~2.8|~3.0",
+                "symfony/http-kernel": "~2.8|~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Debug\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Debug Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-07-30 07:22:48"
+        },
+        {
+            "name": "symfony/dom-crawler",
+            "version": "v2.8.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/dom-crawler.git",
+                "reference": "adb9f190b13884d6a70ec094a487363675575c1a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/adb9f190b13884d6a70ec094a487363675575c1a",
+                "reference": "adb9f190b13884d6a70ec094a487363675575c1a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/polyfill-mbstring": "~1.0"
+            },
+            "require-dev": {
+                "symfony/css-selector": "~2.8|~3.0.0"
+            },
+            "suggest": {
+                "symfony/css-selector": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\DomCrawler\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony DomCrawler Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-12-10 14:24:35"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "v3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/finder.git",
+                "reference": "a69cb5d455b4885ca376dc5bb3e1155cc8c08c4b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/a69cb5d455b4885ca376dc5bb3e1155cc8c08c4b",
+                "reference": "a69cb5d455b4885ca376dc5bb3e1155cc8c08c4b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\Finder\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "https://symfony.com",
+            "time": "2016-12-13 09:39:43"
+        },
+        {
+            "name": "symfony/options-resolver",
+            "version": "v3.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/options-resolver.git",
+                "reference": "45940bcad6388b3b6058107eca67ced738d205bb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/options-resolver/zipball/45940bcad6388b3b6058107eca67ced738d205bb",
+                "reference": "45940bcad6388b3b6058107eca67ced738d205bb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\OptionsResolver\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony OptionsResolver Component",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "config",
+                "configuration",
+                "options"
+            ],
+            "time": "2016-05-13 18:13:23"
+        },
+        {
+            "name": "symfony/polyfill-mbstring",
+            "version": "v1.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-mbstring.git",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "reference": "e79d363049d1c2128f133a2667e4f4190904f7f4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-mbstring": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.3-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Mbstring\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for the Mbstring extension",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "mbstring",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2016-11-14 01:06:16"
+        },
+        {
+            "name": "tecnickcom/tcpdf",
+            "version": "6.2.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tecnickcom/TCPDF.git",
+                "reference": "2f732eaa91b5665274689b1d40b285a7bacdc37f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tecnickcom/TCPDF/zipball/2f732eaa91b5665274689b1d40b285a7bacdc37f",
+                "reference": "2f732eaa91b5665274689b1d40b285a7bacdc37f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "fonts",
+                    "config",
+                    "include",
+                    "tcpdf.php",
+                    "tcpdf_parser.php",
+                    "tcpdf_import.php",
+                    "tcpdf_barcodes_1d.php",
+                    "tcpdf_barcodes_2d.php",
+                    "include/tcpdf_colors.php",
+                    "include/tcpdf_filters.php",
+                    "include/tcpdf_font_data.php",
+                    "include/tcpdf_fonts.php",
+                    "include/tcpdf_images.php",
+                    "include/tcpdf_static.php",
+                    "include/barcodes/datamatrix.php",
+                    "include/barcodes/pdf417.php",
+                    "include/barcodes/qrcode.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPLv3"
+            ],
+            "authors": [
+                {
+                    "name": "Nicola Asuni",
+                    "email": "info@tecnick.com",
+                    "homepage": "http://nicolaasuni.tecnick.com"
+                }
+            ],
+            "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
+            "homepage": "http://www.tcpdf.org/",
+            "keywords": [
+                "PDFD32000-2008",
+                "TCPDF",
+                "barcodes",
+                "datamatrix",
+                "pdf",
+                "pdf417",
+                "qrcode"
+            ],
+            "time": "2015-09-12 10:08:34"
+        },
+        {
+            "name": "true/punycode",
+            "version": "v2.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/true/php-punycode.git",
+                "reference": "a4d0c11a36dd7f4e7cd7096076cab6d3378a071e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/true/php-punycode/zipball/a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
+                "reference": "a4d0c11a36dd7f4e7cd7096076cab6d3378a071e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/polyfill-mbstring": "^1.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.7",
+                "squizlabs/php_codesniffer": "~2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TrueBV\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Renan Gonçalves",
+                    "email": "renan.saddam@gmail.com"
+                }
+            ],
+            "description": "A Bootstring encoding of Unicode for Internationalized Domain Names in Applications (IDNA)",
+            "homepage": "https://github.com/true/php-punycode",
+            "keywords": [
+                "idna",
+                "punycode"
+            ],
+            "time": "2016-11-16 10:37:54"
+        },
+        {
+            "name": "zrashwani/news-scrapper",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zrashwani/news-scrapper.git",
+                "reference": "60af530a170b56459eb2ed55d12cc2d57e2f8ffd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zrashwani/news-scrapper/zipball/60af530a170b56459eb2ed55d12cc2d57e2f8ffd",
+                "reference": "60af530a170b56459eb2ed55d12cc2d57e2f8ffd",
+                "shasum": ""
+            },
+            "require": {
+                "fabpot/goutte": "^2.0",
+                "php": ">=5.4.0",
+                "symfony/console": "^2.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.6",
+                "squizlabs/php_codesniffer": "~2.0",
+                "symfony/var-dumper": "^2.7"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Zrashwani\\NewsScrapper\\": [
+                        "src/NewsScrapper",
+                        "tests/src/"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "zrashwani",
+                    "email": "zaid@wewebit.com"
+                }
+            ],
+            "description": "scrapping news data from a webpage using structured data",
+            "keywords": [
+                "crawler",
+                "news",
+                "scrapper"
+            ],
+            "time": "2015-11-28 16:37:41"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "crodas/text-rank": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
